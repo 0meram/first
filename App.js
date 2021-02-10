@@ -1,0 +1,15 @@
+import React from "react";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import Submenu from "./Submenu";
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Submenu />
+    </>
+  );
+}
+
+export default App;
